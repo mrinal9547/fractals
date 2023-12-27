@@ -1,1 +1,1 @@
-# fractals
+# the programm uses image processing to create fractals

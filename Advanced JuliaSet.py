@@ -33,7 +33,7 @@ axcolor = 'lightgoldenrodyellow'
 ax_real = plt.axes([0.25, 0.1, 0.65, 0.03], facecolor=axcolor)
 ax_imag = plt.axes([0.25, 0.15, 0.65, 0.03], facecolor=axcolor)
 
-real_slider = Slider(ax_real, 'Real', -2, 2, valinit=-0.8)
+real_slider = Slider(ax_real, 'Real', -2, 2, valinit=-0.6)
 imag_slider = Slider(ax_imag, 'Imag', -2, 2, valinit=0.156)
 
 real_slider.on_changed(update)
